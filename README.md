@@ -37,7 +37,7 @@ Customer churn: when a customer stops using a service, is one of the most costly
 
 ## 🗃️ Dataset
 
-**Source:** IBM Sample Dataset — [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+**Source:** IBM — [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 - **7,043 customers**, 21 features
 - **Churn rate: ~26.5%** (imbalanced dataset)
