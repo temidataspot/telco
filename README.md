@@ -19,7 +19,6 @@
 | Resource | Link |
 |---|---|
 | Notebook | [Telco.ipynb](https://github.com/temidataspot/telco/blob/main/Telco.ipynb) |
-| Live Dashboard | [Streamlit App](https://telcos.streamlit.app/) |
 | Dataset | [IBM Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) |
 | Model Outputs | [churn_model_comparison_v2.csv](https://github.com/temidataspot/telco/blob/main/outputs/rf_full_predictions.csv) |
 | Metrics Summary | [model_metrics_summary.csv](https://github.com/temidataspot/telco/blob/main/visuals/model_comparison.png) |
