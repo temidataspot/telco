@@ -242,7 +242,7 @@ const MODELS = {
   xgboost: {
     label:"XGBoost", emoji:"🚀",
     desc:"Gradient boosted trees. Best overall balance of all metrics and most consistent across folds.",
-    insight:"Best ROC-AUC (0.843) and highest CV F1 (~0.858). Recommended production model.",
+    insight:"Best ROC-AUC (0.843) and highest CV F1 (~0.858).",
     color:"#fb923c", glow:"rgba(251,146,60,0.3)", bg:"rgba(251,146,60,0.08)",
     metrics:{ Accuracy:.7800, Precision:.5777, Recall:.6364, "F1 Score":.6056, "ROC-AUC":.8430 },
     cv:[85.4,86.1,85.8,86.7,85.1],
