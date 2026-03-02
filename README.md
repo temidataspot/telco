@@ -242,8 +242,6 @@ plotly
 
 **Temiloluwa Priscilla Jokotola**
 📧 [Email](mailto:temi@cognivinelab.com)
-
----
 🔗 [LinkedIn](https://linkedin.com/in/temiloluwa-priscilla-jokotola)
 🐙 [GitHub](https://github.com/temidataspot)
 
