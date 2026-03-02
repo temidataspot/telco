@@ -1,4 +1,4 @@
-# 📉 Customer Churn Prediction & Analysis Dashboard
+# Customer Churn Prediction & Analysis 
 ### Telco Customer Retention — End-to-End Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
@@ -13,15 +13,15 @@
 
 | Resource | Link |
 |---|---|
-| 📓 Notebook | [Telco_Churn_Enhanced.ipynb](https://github.com/YOUR_USERNAME/telco-churn/blob/main/Telco_Churn_Enhanced.ipynb) |
+| 📓 Notebook | [Telco_Churn_Enhanced.ipynb](https://github.com/temidataspot/telco/blob/main/Telco.ipynb) |
 | 🖥️ Live Dashboard | [Streamlit App](https://YOUR_APP.streamlit.app) |
 | 📊 Dataset | [IBM Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) |
-| 📁 Model Outputs | [churn_model_comparison_v2.csv](https://github.com/YOUR_USERNAME/telco-churn/blob/main/churn_model_comparison_v2.csv) |
-| 📈 Metrics Summary | [model_metrics_summary.csv](https://github.com/YOUR_USERNAME/telco-churn/blob/main/model_metrics_summary.csv) |
+| 📁 Model Outputs | [churn_model_comparison_v2.csv](https://github.com/temidataspot/telco/blob/main/outputs/rf_full_predictions.csv) |
+| 📈 Metrics Summary | [model_metrics_summary.csv](https://github.com/temidataspot/telco/blob/main/visuals/model_comparison.png) |
 
 ---
 
-## 📌 Project Overview
+## Overview
 
 Customer churn — when a customer stops using a service — is one of the most costly problems in the telecommunications industry. Acquiring a new customer can cost **5–7x more** than retaining an existing one. This project builds a full machine learning pipeline to:
 
