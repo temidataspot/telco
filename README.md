@@ -7,17 +7,22 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-brightgreen?logo=streamlit)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainability-yellow)
 
+### Dashboard
+
+[![React Dashboard](https://img.shields.io/badge/Telco-Dashboard-247ba0)](https://claude.ai/public/artifacts/f9eb17ec-a115-43e8-afce-b8bdbb5c7962)
+
+[![Streamlit Dashboard](https://img.shields.io/badge/Telco-Dashboard-247ba0)](https://telcos.streamlit.app/)
 ---
 
 ## 🔗 Quick Links
 
 | Resource | Link |
 |---|---|
-| 📓 Notebook | [Telco.ipynb](https://github.com/temidataspot/telco/blob/main/Telco.ipynb) |
-| 🖥️ Live Dashboard | [Streamlit App](https://YOUR_APP.streamlit.app) |
-| 📊 Dataset | [IBM Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) |
-| 📁 Model Outputs | [churn_model_comparison_v2.csv](https://github.com/temidataspot/telco/blob/main/outputs/rf_full_predictions.csv) |
-| 📈 Metrics Summary | [model_metrics_summary.csv](https://github.com/temidataspot/telco/blob/main/visuals/model_comparison.png) |
+| Notebook | [Telco.ipynb](https://github.com/temidataspot/telco/blob/main/Telco.ipynb) |
+| Live Dashboard | [Streamlit App](https://telcos.streamlit.app/) |
+| Dataset | [IBM Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) |
+| Model Outputs | [churn_model_comparison_v2.csv](https://github.com/temidataspot/telco/blob/main/outputs/rf_full_predictions.csv) |
+| Metrics Summary | [model_metrics_summary.csv](https://github.com/temidataspot/telco/blob/main/visuals/model_comparison.png) |
 
 ---
 
