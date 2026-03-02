@@ -9,9 +9,9 @@
 
 ### Dashboard
 
-[![React Dashboard](https://img.shields.io/badge/Telco-Dashboard-247ba0)](https://claude.ai/public/artifacts/f9eb17ec-a115-43e8-afce-b8bdbb5c7962)
+[![React Dashboard](https://img.shields.io/badge/Telco-React-Dashboard-247ba0)](https://claude.ai/public/artifacts/f9eb17ec-a115-43e8-afce-b8bdbb5c7962)
 
-[![Streamlit Dashboard](https://img.shields.io/badge/Telco-Dashboard-247ba0)](https://telcos.streamlit.app/)
+[![Streamlit Dashboard](https://img.shields.io/badge/Telco-Streamlit-Dashboard-247ba0)](https://telcos.streamlit.app/)
 ---
 
 ## 🔗 Quick Links
