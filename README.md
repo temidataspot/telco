@@ -1,5 +1,5 @@
 # Customer Churn Prediction & Analysis 
-### Telco Customer Retention — End-to-End Machine Learning Project
+### Telco Customer Retention: End-to-End Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3+-orange?logo=scikit-learn)
@@ -37,7 +37,7 @@ Customer churn: when a customer stops using a service, is one of the most costly
 
 ## 🗃️ Dataset
 
-**Source:** IBM — [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+**Source:** IBM: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 - **7,043 customers**, 21 features
 - **Churn rate: ~26.5%** (imbalanced dataset)
@@ -57,8 +57,8 @@ Customer churn: when a customer stops using a service, is one of the most costly
 
 ### 2. Handling Class Imbalance
 The dataset is imbalanced (~73% No Churn / ~27% Churn). Two strategies were applied:
-- **SMOTE** (Synthetic Minority Oversampling) — generates synthetic churn samples in the training set
-- **`class_weight='balanced'`** — used natively in Random Forest
+- **SMOTE** (Synthetic Minority Oversampling): generates synthetic churn samples in the training set
+- **`class_weight='balanced'`**: used natively in Random Forest
 
 ### 3. Models Trained
 Four models were trained progressively, from simple to complex:
@@ -92,7 +92,7 @@ Four models were trained progressively, from simple to complex:
 ###  Visual: Model Performance Comparison
 ![Model Comparison Bar Chart](https://github.com/temidataspot/telco/blob/main/visuals/model_comparison.png)
 
-###  Visual: ROC Curves — All Models
+###  Visual: ROC Curves: All Models
 ![ROC Curves](https://github.com/temidataspot/telco/blob/main/visuals/roc_curves_all_models.png)
 
 ---
@@ -109,7 +109,7 @@ To ensure the models generalise well beyond the test set, 5-Fold Stratified Cros
 | Random Forest | ~0.800 | Low (1 outlier) |
 | **XGBoost** | **~0.858** | **Low ** |
 
-**Key insight:** XGBoost not only outperforms on the test set — it is the most consistent model across all 5 folds, confirming it is not just lucky on one split.
+**Key insight:** XGBoost not only outperforms on the test set, it is the most consistent model across all 5 folds, confirming it is not just lucky on one split.
 
 ### 📈 Visual: Cross-Validation Boxplot
 ![Cross-Validation Boxplot](https://github.com/temidataspot/telco/blob/main/visuals/cross_validation_boxplot.png)
@@ -118,14 +118,14 @@ To ensure the models generalise well beyond the test set, 5-Fold Stratified Cros
 
 ## SHAP Explainability
 
-SHAP (SHapley Additive exPlanations) was used to explain *why* XGBoost makes each prediction — translating a black-box model into actionable business insight.
+SHAP (SHapley Additive exPlanations) was used to explain *why* XGBoost makes each prediction, translating a black-box model into actionable business insight.
 
 ### Visual: SHAP Summary Plot
 ![SHAP Summary](https://github.com/temidataspot/telco/blob/main/visuals/shap_summary.png)
 
 ### Key SHAP Findings
 
-"SHAP analysis reveals that contract type and tenure are the dominant churn drivers. Month-to-month customers with short tenure, no security add-ons, and paying via electronic check represent the highest-risk segment. Two-year contract holders show strong negative SHAP values — confirming that locking customers into longer contracts is the most effective retention strategy."
+"SHAP analysis reveals that contract type and tenure are the dominant churn drivers. Month-to-month customers with short tenure, no security add-ons, and paying via electronic check represent the highest-risk segment. Two-year contract holders show strong negative SHAP values, confirming that locking customers into longer contracts is the most effective retention strategy."
 
 | Feature | Direction | Interpretation |
 |---|---|---|
@@ -151,7 +151,7 @@ In churn prediction, **missing a churner costs far more than a false alarm**. Se
 
 ### Model Selection for Business Use
 
-> *"Logistic Regression gave us a clean, interpretable baseline. SMOTE improved recall from 56% to 72% — proving the value of handling class imbalance. Random Forest achieved the highest raw recall at 78%, making it ideal when catching every single churner is paramount. XGBoost delivered the best balance across all metrics with the highest ROC-AUC and cross-validation F1, making it the recommended production model."*
+> *"Logistic Regression gave us a clean, interpretable baseline. SMOTE improved recall from 56% to 72%, proving the value of handling class imbalance. Random Forest achieved the highest raw recall at 78%, making it ideal when catching every single churner is paramount. XGBoost delivered the best balance across all metrics with the highest ROC-AUC and cross-validation F1, making it the recommended production model."*
 
 ### Actionable Recommendations from SHAP
 
@@ -165,7 +165,7 @@ In churn prediction, **missing a churner costs far more than a false alarm**. Se
 | High monthly charges = churn risk | Identify customers paying > £70/month for targeted offers | Medium |
 
 ### Ensemble Risk Scoring
-A **High Risk** flag was created in the master output file: customers flagged as churn by **3 or more models** simultaneously are prioritised for immediate intervention — reducing the chance of acting on a single model's error.
+A **High Risk** flag was created in the master output file: customers flagged as churn by **3 or more models** simultaneously are prioritised for immediate intervention, reducing the chance of acting on a single model's error.
 
 ---
 
@@ -202,7 +202,7 @@ streamlit run app.py
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # 1. Clone the repo
@@ -221,7 +221,7 @@ streamlit run app.py
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```
 pandas
@@ -241,7 +241,9 @@ plotly
 ## 👤 Author
 
 **Temiloluwa Priscilla Jokotola**
-📧 [temi@cognivinelab.cpm](mailto:temi@cognivinelab.com)
+📧 [Email](mailto:temi@cognivinelab.com)
+
+---
 🔗 [LinkedIn](https://linkedin.com/in/temiloluwa-priscilla-jokotola)
 🐙 [GitHub](https://github.com/temidataspot)
 
