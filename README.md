@@ -13,7 +13,7 @@
 
 | Resource | Link |
 |---|---|
-| 📓 Notebook | [Telco_Churn_Enhanced.ipynb](https://github.com/temidataspot/telco/blob/main/Telco.ipynb) |
+| 📓 Notebook | [Telco.ipynb](https://github.com/temidataspot/telco/blob/main/Telco.ipynb) |
 | 🖥️ Live Dashboard | [Streamlit App](https://YOUR_APP.streamlit.app) |
 | 📊 Dataset | [IBM Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) |
 | 📁 Model Outputs | [churn_model_comparison_v2.csv](https://github.com/temidataspot/telco/blob/main/outputs/rf_full_predictions.csv) |
@@ -23,7 +23,7 @@
 
 ## Overview
 
-Customer churn — when a customer stops using a service — is one of the most costly problems in the telecommunications industry. Acquiring a new customer can cost **5–7x more** than retaining an existing one. This project builds a full machine learning pipeline to:
+Customer churn: when a customer stops using a service, is one of the most costly problems in the telecommunications industry. Acquiring a new customer can cost **5–7x more** than retaining an existing one. This project builds a full machine learning pipeline to:
 
 - **Predict** which customers are likely to churn
 - **Compare** multiple models to find the best approach
@@ -32,32 +32,6 @@ Customer churn — when a customer stops using a service — is one of the most 
 - **Visualise** results via an interactive Streamlit dashboard
 
 ---
-
-## 📂 Project Structure
-
-```
-telco/
-│
-├── Telco.ipynb       # Main notebook (all models + SHAP)
-├── app.py                           # Streamlit dashboard
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Raw dataset
-│
-├── outputs/
-│   ├── logistic_full_predictions.csv
-│   ├── smote_logistic_full_predictions.csv
-│   ├── rf_full_predictions.csv
-│   ├── xgboost_full_predictions.csv
-│   └── churn_model_comparison_v2.csv     # Master file (all 4 models + ensemble votes)
-│
-├── visuals/
-│   ├── model_comparison.png
-│   ├── roc_curves_all_models.png
-│   ├── cross_validation_boxplot.png
-│   ├── shap_summary.png
-│   └── shap_feature_importance.png
-│
-└── README.md
-```
 
 ---
 
@@ -115,11 +89,11 @@ Four models were trained progressively, from simple to complex:
 | Random Forest | 0.7296 | 0.4941 | **0.7834** | 0.6060 | 0.8154 |
 | **XGBoost** | 0.7800 | 0.5777 | 0.6364 | **0.6056** | **0.8430** |
 
-### 📈 Visual: Model Performance Comparison
-![Model Comparison Bar Chart](https://raw.githubusercontent.com/YOUR_USERNAME/telco-churn/main/visuals/model_comparison.png)
+###  Visual: Model Performance Comparison
+![Model Comparison Bar Chart](https://github.com/temidataspot/telco/blob/main/visuals/model_comparison.png)
 
-### 📈 Visual: ROC Curves — All Models
-![ROC Curves](https://raw.githubusercontent.com/YOUR_USERNAME/telco-churn/main/visuals/roc_curves_all_models.png)
+###  Visual: ROC Curves — All Models
+![ROC Curves](https://github.com/temidataspot/telco/blob/main/visuals/roc_curves_all_models.png)
 
 ---
 
@@ -138,16 +112,16 @@ To ensure the models generalise well beyond the test set, 5-Fold Stratified Cros
 **Key insight:** XGBoost not only outperforms on the test set — it is the most consistent model across all 5 folds, confirming it is not just lucky on one split.
 
 ### 📈 Visual: Cross-Validation Boxplot
-![Cross-Validation Boxplot](https://raw.githubusercontent.com/YOUR_USERNAME/telco-churn/main/visuals/cross_validation_boxplot.png)
+![Cross-Validation Boxplot](https://github.com/temidataspot/telco/blob/main/visuals/cross_validation_boxplot.png)
 
 ---
 
-## 🧠 SHAP Explainability
+## SHAP Explainability
 
 SHAP (SHapley Additive exPlanations) was used to explain *why* XGBoost makes each prediction — translating a black-box model into actionable business insight.
 
-### 📈 Visual: SHAP Summary Plot
-![SHAP Summary](https://raw.githubusercontent.com/YOUR_USERNAME/telco-churn/main/visuals/shap_summary.png)
+### Visual: SHAP Summary Plot
+![SHAP Summary](https://github.com/temidataspot/telco/blob/main/visuals/shap_summary.png)
 
 ### Key SHAP Findings
 
@@ -164,6 +138,9 @@ SHAP (SHapley Additive exPlanations) was used to explain *why* XGBoost makes eac
 | **TechSupport_No** | ⬆️ Increases churn | Lack of support increases dissatisfaction |
 | **MonthlyCharges (high)** | ⬆️ Increases churn | Price sensitivity is real |
 | **Contract_Two year** | ⬇️ Reduces churn | Strong protective factor against churn |
+
+
+![SHAP Feature Importance](https://github.com/temidataspot/telco/blob/main/visuals/shap_feature_importance.png)
 
 ---
 
@@ -192,7 +169,7 @@ A **High Risk** flag was created in the master output file: customers flagged as
 
 ---
 
-## 🖥️ Dashboard
+## Dashboard
 
 The interactive Streamlit dashboard allows business users to:
 - Switch between models (Logistic, SMOTE, Random Forest, XGBoost)
