@@ -173,23 +173,6 @@ A **High Risk** flag was created in the master output file: customers flagged as
 
 ---
 
-## Dashboard
-
-The interactive Streamlit dashboard allows business users to:
-- Switch between models (Logistic, SMOTE, Random Forest, XGBoost)
-- View live metrics per model
-- Browse the top predicted churners with their probability scores
-- Filter and explore by customer attributes
-
-**Live App:** [https://YOUR_APP.streamlit.app](https://YOUR_APP.streamlit.app)
-
-To run locally:
-```bash
-pip install streamlit pandas plotly scikit-learn
-streamlit run app.py
-```
-
----
 
 ##  Tech Stack
 
@@ -203,42 +186,6 @@ streamlit run app.py
 | SHAP | Model explainability |
 | Matplotlib / Seaborn | Static visualisations |
 | Streamlit + Plotly | Interactive dashboard |
-
----
-
-##  How to Run
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/telco-churn.git
-cd telco-churn
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the notebook
-jupyter notebook telco.ipynb
-
-# 4. Launch the dashboard
-streamlit run app.py
-```
-
----
-
-##  Requirements
-
-```
-pandas
-numpy
-scikit-learn
-xgboost
-imbalanced-learn
-shap
-matplotlib
-seaborn
-streamlit
-plotly
-```
 
 ---
 
