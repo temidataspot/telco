@@ -9,9 +9,11 @@
 
 ### Dashboard
 
+[![Streamlit Dashboard](https://img.shields.io/badge/Streamlit-Dashboard-247ba0)](https://telcos.streamlit.app/)
+
+
 [![React Dashboard](https://img.shields.io/badge/React-Dashboard-247ba0)](https://claude.ai/public/artifacts/f9eb17ec-a115-43e8-afce-b8bdbb5c7962)
 
-[![Streamlit Dashboard](https://img.shields.io/badge/Streamlit-Dashboard-247ba0)](https://telcos.streamlit.app/)
 ---
 
 ## 🔗 Quick Links
