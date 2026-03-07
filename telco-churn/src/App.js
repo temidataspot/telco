@@ -94,7 +94,7 @@ function AnimatedNumber({ value, duration = 1200 }) {
       if (p < 1) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
-  }, [value]);
+  }, [value, duration]);
   return <span>{display.toFixed(4)}</span>;
 }
 
